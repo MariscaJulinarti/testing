@@ -1,0 +1,24 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "^16.*"
+  },
+  "scripts": {
+    "test": "cypress open",
+    "cypress": "cypress run",
+    "cypress:run": "cypress run --spec **/*.spec.js --headless --browser chrome",
+    "cypress:api": "cypress run --spec 'cypress/integration/api/**/*.spec.js' --headless --browser chrome",
+    "cypress:api:discount": "cypress run --spec 'cypress/integration/api/discounts/*.spec.js' --headless --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^9.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "mysql": "^2.18.1",
+    "mysql-import": "^5.0.21"
+  }
+}

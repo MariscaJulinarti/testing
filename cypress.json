@@ -1,0 +1,7 @@
+{
+  "projectId": "6q31dh",
+  "video": false,
+  "screenshotOnRunFailure": false,
+  "defaultCommandTimeout": 40000000,
+  "pageLoadTimeout": 300000000
+}
